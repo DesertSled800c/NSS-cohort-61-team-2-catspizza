@@ -1,4 +1,16 @@
 #dkd_section {
-    display: flex;
-    width: 100px;
+    background-image: url("https://img.freepik.com/free-vector/pizza-doodle-patterned-background_53876-97421.jpg");
 }
+
+dkd-cat__pizza__img {
+    display: flex;
+}
+
+#dkd_section img {
+    width: 500px;
+}
+
+.dkd-pizza__cat__text {
+    display: flex;
+}
+
