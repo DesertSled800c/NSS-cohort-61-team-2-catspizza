@@ -1,3 +1,36 @@
+/* Removes browser margin and padding */
+* {
+    margin:0px;
+    padding:0px;
+}
+
+img.HP {
+    max-width: 30%;
+    height: auto;
+    border: 1px, solid, black;
+}
+
+div.hp_cat_pizza_article {
+    background-image: url("https://images.unsplash.com/photo-1503431128871-cd250803fa41?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBjYXR8ZW58MHx8MHx8&w=1000&q=80");
+   color: white;
+}
+
+ul.hp {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    width: 70%;
+    margin: auto;
+  }
+
+div.hp_pizza_cat_article {
+    background-image: url("https://media.tenor.com/BhbOPAvXLh0AAAAS/pizza-trippy.gif");
+}
+
+h2.hp{
+    text-align: center;
+}
+
 .cat_pizza_section {
     background-image: url('https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');
     background-repeat: no-repeat;
@@ -19,8 +52,8 @@ img {
 }
 
 .cat_names {
-    font-size: 40px;
-    color: darkmagenta;
+    font-size: 80px;
+    color: rgb(221, 25, 143);
 }
 
 button {
@@ -86,6 +119,58 @@ button {
     text-align: center;
 }
 
-.HP {
-    width: 100px;
+h1, h3 {
+    display: flex;
+    justify-content: center;
+}
+
+#lag_section {
+    background-image: url("https://media.istockphoto.com/id/1142653274/vector/vector-seamless-pattern-of-black-and-white-pizza.jpg?b=1&s=612x612&w=0&k=20&c=o-CTtH6hRThAXXaBWZRr2u1zcOEkK5PlmlQr7hf86MM=");
+    background-size: auto;
+    background-repeat: repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#lag_section .cat_pizza_header {
+    color: rgba(237, 47, 47, 1);
+    flex-basis: 100%;
+    font-size: 2.5em;
+    margin: auto;
+    text-align: center;
+    text-shadow: 0px 0px 3px #000;
+}
+
+#lag_section .cat_header {
+    text-align: center;
+    font-size: 2em;
+    margin: 10px;
+}
+
+#lag_section .cat_pizza_article {
+    background-color: #333;
+    box-sizing: border-box;
+    border: 5px solid rgba(237, 47, 47, 0.686);
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px #000;
+    color: #eee;
+    padding: 20px;
+    margin: 10px;
+    flex: 2 2 30%;
+}
+
+#lag_section .cat_image {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+
+#lag_section .cat_list {
+    margin: 15px;
+}
+
+h1, h3 {
+    display: flex;
+    justify-content: center;
 }
