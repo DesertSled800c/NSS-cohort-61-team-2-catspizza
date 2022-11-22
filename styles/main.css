@@ -1,3 +1,9 @@
+/* Removes browser margin and padding */
+* {
+    margin:0px;
+    padding:0px;
+}
+
 .cat_pizza_section {
     background-image: url('https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');
     background-repeat: no-repeat;
@@ -84,4 +90,19 @@ button {
     height: 140px;
     padding: 20px 0px;
     text-align: center;
+}
+
+#lag_section {
+    background-image: url("");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#lag_section .cat_pizza_header {
+    flex-basis: 100%;
+}
+
+#lag_section .cat_pizza_article {
+    flex-basis: 30%;
 }
