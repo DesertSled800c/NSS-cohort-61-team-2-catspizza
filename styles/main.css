@@ -47,8 +47,8 @@ img {
 }
 
 .cat_names {
-    font-size: 40px;
-    color: darkmagenta;
+    font-size: 80px;
+    color: rgb(221, 25, 143);
 }
 
 button {
@@ -112,4 +112,9 @@ button {
     height: 140px;
     padding: 20px 0px;
     text-align: center;
+}
+
+h1, h3 {
+    display: flex;
+    justify-content: center;
 }
