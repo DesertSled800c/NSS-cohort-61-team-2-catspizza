@@ -70,9 +70,9 @@ button {
 }
 
 .mrs_cat_img, .mrs_pizza_img {
-    height: 150px;
-    width: 200px;
-    border: 2px dotted honeydew;
+    height: 410px;
+    width: 460px;
+    /* border: 2px dotted honeydew; */
     
 
 }
@@ -88,7 +88,7 @@ button {
      
 }
 .mrs_fig_pizza {
-    border: 1px solid gainsboro;
+    /* border: 1px solid gainsboro; */
     text-align: center;
     padding: 5px;
    
@@ -98,7 +98,7 @@ button {
     background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 300px;
+    /* height: 300px; */
 
     display: flex;
     /* flex-wrap: wrap; */
@@ -161,9 +161,10 @@ h3 {
 }
 
 #lag_section .cat_image {
-    margin: auto;
+    display: block;
+    margin: 0 auto 0 auto;
     width: 50%;
-    height: 50%;
+    border: 5px solid rgba(237, 47, 47, 0.686);
 }
 
 #lag_section .cat_list {
