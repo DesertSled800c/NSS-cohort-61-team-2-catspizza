@@ -93,16 +93,47 @@ button {
 }
 
 #lag_section {
-    background-image: url("");
+    background-image: url("https://media.istockphoto.com/id/1142653274/vector/vector-seamless-pattern-of-black-and-white-pizza.jpg?b=1&s=612x612&w=0&k=20&c=o-CTtH6hRThAXXaBWZRr2u1zcOEkK5PlmlQr7hf86MM=");
+    background-size: auto;
+    background-repeat: repeat;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 #lag_section .cat_pizza_header {
+    color: rgba(237, 47, 47, 1);
     flex-basis: 100%;
+    font-size: 2.5em;
+    margin: auto;
+    text-align: center;
+    text-shadow: 0px 0px 3px #000;
+}
+
+#lag_section .cat_header {
+    text-align: center;
+    font-size: 2em;
+    margin: 10px;
 }
 
 #lag_section .cat_pizza_article {
-    flex-basis: 30%;
+    background-color: #333;
+    box-sizing: border-box;
+    border: 5px solid rgba(237, 47, 47, 0.686);
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px #000;
+    color: #eee;
+    padding: 20px;
+    margin: 10px;
+    flex: 2 2 30%;
+}
+
+#lag_section .cat_image {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+
+#lag_section .cat_list {
+    margin: 15px;
 }
