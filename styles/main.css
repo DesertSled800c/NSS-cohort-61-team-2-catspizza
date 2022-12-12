@@ -50,6 +50,11 @@ h2.hp{
     padding: 11px;
     
 }
+.pro_ak:hover {
+    transform: rotate(45deg);
+    transition: transform 10s;
+
+}
 
 .cat_names {
     font-size: 80px;
